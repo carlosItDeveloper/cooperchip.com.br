@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Copechip.com.br.Domain/Copechip.com.br.Domain.csproj" />
+  <Project Path="Copechip.com.br.Infrastructure/Copechip.com.br.Infrastructure.csproj" />
+  <Project Path="Copechip.com.br.Web/Copechip.com.br.Web.csproj" />
+</Solution>
