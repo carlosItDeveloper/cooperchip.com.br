@@ -1,0 +1,15 @@
+{
+  "name": "copechip.com.br.web",
+  "private": true,
+  "scripts": {
+    "build": "node frontend/copy-vendor-assets.mjs && tailwindcss --input frontend/tailwind.css --output wwwroot/generated/tailwind.css --minify"
+  },
+  "dependencies": {
+    "sweetalert2": "11.26.26",
+    "tom-select": "2.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.5",
+    "tailwindcss": "4.3.5"
+  }
+}

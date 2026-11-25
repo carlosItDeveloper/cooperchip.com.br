@@ -14,6 +14,8 @@ public class Program
             app.UseExceptionHandler("/Home/Error");
         }
 
+        app.MapStaticAssets();
+
         app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
